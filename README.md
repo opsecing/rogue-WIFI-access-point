@@ -10,9 +10,10 @@ it basically reates a fake WIFI hotspot to lure people into connecting then uses
 - A **phishing HTML** payload for data extraction  
 
 **instructions**:  
-1. run `setup.sh` to create the rogue AP.  
-2. use `crack.sh` with a dictionary to break WPA3 passwords 
-3. deploy phishing.html to steal additional data.  
+1. run `setup.sh` to create the rogue AP
+2. use `crack.sh` with a dictionary to break WPA3 passwords
+3. customize `web.html` with any phishing html of your choice
+4. deploy web.html to steal additional data 
 
 **tools required**:  
 - `hostapd`  
