@@ -30,5 +30,5 @@ it basically reates a fake WIFI hotspot to lure people into connecting then uses
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/opsecing)
 
-discord: octular
+discord: 89441
 
